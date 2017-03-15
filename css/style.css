@@ -1,0 +1,390 @@
+*{
+    background-color: #EEEEEE;
+    box-sizing: border-box;
+    position: relative;
+}
+.logo {
+    color: #303030;
+    font-family: Roboto, sans-serif;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 27px;
+    position: absolute;
+    margin-left: 150px;
+    margin-top: 48px;
+    z-index: 1;
+}
+/*__________________NAVIGATION_______*/
+.navigation {
+    margin-left: 926px;
+}
+.navigation__menu {
+    display: inline-block;
+    border: none;
+    background-color: #EEEEEE;
+    padding-right: 35px;
+    margin-top: 58px;
+}
+.navigation__words {
+    color: #303030;
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    text-decoration: none;
+}
+.navigation__words:hover {
+    color: #df1624;
+}
+.navigation__button:hover {
+    transform: scale(1.2);
+    display: inline-block;
+}
+/*_________________________HEADER___________________*/
+.description {
+    background-image: radial-gradient(at 55% 37%, #FFFFFF , #EEEEEE 40%);
+    width: 947px;
+    height: 852px;
+    border: solid 1px #EEEEEE;
+    position: relative;
+    margin-left: 498px;
+    clear: right;
+}
+.description__caption {
+    color: #303030;
+    font-family: Raleway, sans-serif;
+    font-size: 150px;
+    font-weight: 900;
+    line-height: 155px;
+    text-transform: uppercase;
+    word-wrap: break-word;
+    text-align: right;
+    width: 640px;
+    height: 258px;
+    margin-left: -390px;
+    margin-top: 120px;
+    position: absolute;
+}
+.description__headsets {
+    float: right;
+    margin-right: 226px;
+    margin-top: 111px;
+    background: none;
+}
+.description__textintro {
+    position: absolute;
+    text-align: right;
+    white-space: pre;
+    color: #303030;
+    font-family: Roboto,sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 36px;
+    margin:0;
+    left: -425px;
+    top: 430px;
+
+}
+.description__view {
+    color: #e10011;
+    font-family: Roboto, sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    margin:0;
+    left: 107px;
+    top: 550px;
+    position: absolute;
+}
+.description__view:hover {
+    font-weight: 900;
+}
+.description__slider {
+    width: 11px;
+    height: 11px;
+    background: black;
+    border-radius: 50px;
+    display: inline-block;
+    position: relative;
+    margin:0;
+    left: 177px;
+    top: 660px;
+}
+.description__slider:nth-child(1) {
+    background: red;
+}
+/*______________________MAIN___________*/
+.itemimage {
+    width: 1198px;
+    height: 1193px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    margin-left: 85px;
+    position: relative;
+    z-index: 2;
+}
+.itemimage__itemsheader {
+    color: #303030;
+    font-family: Raleway, sans-serif;
+    font-size: 48px;
+    font-weight: 900;
+    position: absolute;
+    background: none;
+    margin-left: 395px;
+    padding-top: 114px;
+}
+.itemimage__star {
+    background: none;
+    position: absolute;
+    margin-left: 490px;
+    margin-top: 180px;
+}
+.itemimage__text {
+    color: #303030;
+    font-family: "Arial Black", sans-serif;
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 24px;
+    position: absolute;
+    background: none;
+    margin-left: 205px;
+    padding-top: 220px;
+    white-space: pre;
+    text-align: center;
+}
+.items {
+
+}
+.items__firstitem {
+    background: url("../images/speaker.png") #EEEEEE no-repeat;
+    float: left;
+    height: 387px;
+    width: 692px;
+    border-radius: 5px;
+    margin-top: -430px;
+    margin-left: 150px;
+    padding-left: 10px;
+    padding-right: 62px;
+    position: relative;
+    z-index: 4;
+    color: #EEEEEE;
+/*_________TEXT_________*/
+    font-family: Roboto, sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+    word-wrap: break-word;
+    text-decoration: underline;
+    visibility: visible;
+    line-height: 55px;
+    display: block;
+    /*end text*/
+}
+.items__seconditem {
+    background: url("../images/beats-by-dre-red.png")  #EEEEEE no-repeat;
+    z-index:3;
+    float: left;
+    height: 387px;
+    width: 291px;
+    border-radius: 5px;
+    position: relative;
+    padding-left: 57px;
+    margin-left: 860px;
+    margin-top: -430px;
+}
+.minimaldesign {
+    font-family: Roboto, sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+    word-wrap: break-word;
+    text-decoration: underline;
+    background-color: #df1624;
+    left: -57px;
+    visibility: visible;
+    display: block;
+    height: 387px;
+    width: 291px;
+    border-radius: 5px;
+    padding-left: 20px;
+    color: white;
+    z-index: 6;
+}
+.minimaldesign:hover {
+    visibility: hidden;
+}
+.items__thirditem {
+    background: url("../images/pulse.png") #eeeeee no-repeat;
+    background-blend-mode: multiply;
+    clear: left;
+    z-index:4;
+    position: relative;
+    height: 387px;
+    width: 318px;
+    border-radius: 5px;
+    padding-left: 37px;
+    margin-left: 150px;
+    margin-top: -430px;
+    /*_________TEXT_________*/
+    font-family: Roboto, sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+    word-wrap: break-word;
+    text-decoration: underline;
+    visibility: visible;
+    line-height: 55px;
+    display: block;
+    /*end text*/
+}
+.items__fouritem {
+    background: url("../images/casual-shoes.png") #EEEEEE no-repeat;
+    float: left;
+    margin-left: 500px;
+    margin-top: -387px;
+    position: relative;
+    z-index: 4;
+    height: 387px;
+    width: 328px;
+    border-radius: 5px;
+    /*_________TEXT_________*/
+    font-family: Roboto, sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+    word-wrap: break-word;
+    text-decoration: underline;
+    visibility: visible;
+    line-height: 55px;
+    display: block;
+    /*end text*/
+}
+.items__fiveitem {
+    background: url("../images/chair.png") #EEEEEE no-repeat;
+    float: left;
+    margin-left: 900px;
+    margin-top: -387px;
+    position: relative;
+    z-index: 4;
+    height: 387px;
+    width: 328px;
+    border-radius: 5px;
+ }
+.word4fivepicture {
+    font-family: Roboto, sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+    padding-left: 20px;
+    background-color: #df1624;
+    color: white;
+    border-radius: 5px;
+    text-decoration: underline;
+    height: 387px;
+    width: 328px;
+    visibility: hidden;
+    line-height: 55px;
+    display: block;
+}
+/*__________ДЛЯ  5й КАРТИНКИ________*/
+.word4fivepicture:hover {
+    visibility: visible;
+}
+.items__fiveitem:hover{
+    visibility: hidden;
+}
+/*________*/
+.items__firstitem:hover,  .items__thirditem:hover,
+.items__fouritem:hover{
+    position: absolute;
+    z-index: 4;
+    background-color: #df1624;
+    color: white;
+    background-blend-mode: multiply;
+    display: block;
+}
+/*-------------------------------------------------------------------FOOTER-------*/
+.footer{
+    font-family: 'Raleway', sans-serif;
+    color:  #303030;
+    position: relative;
+    top: 175px;
+}
+.footer-text{
+    font-size: 18px;
+    width: 530px;
+    text-align: center;
+    position: relative;
+    left: 390px;
+}
+.footer-text__title{
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin: 0;
+}
+.footer-form{
+    position: relative;
+    left: 310px;
+    top: 15px;
+    width: 705px;
+}
+.input-style{
+    height: 70px;
+    outline: none;
+    border: none;
+    font-size: 18px;
+}
+.footer-form__input{
+    width: 494px;
+    padding-left: 70px;
+    background: url(../social/mail.png) 31px 28px no-repeat #fff;
+    color:  #979797;
+    font-weight: 600;
+    font-style: italic;
+    border-radius: 50px 0 0 50px;
+}
+.footer-form__submit{
+    width: 208px;
+    background-color: #df1624;
+    font-family: 'Roboto', sans-serif;
+    color:  #fff;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-left: -5px;
+    border-radius: 0 50px 50px 0;
+}
+.footer-form__triangle{
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-top: 5px solid transparent;
+    border-left: 10px solid white;
+    border-bottom: 5px solid transparent;
+    background: none;
+    margin-bottom: 1px;
+}
+.footer-social{
+    position: relative;
+    left: 420px;
+    top: 100px;
+    width: 480px;
+}
+.footer-social__links{
+    margin-left: 75px;
+}
+.footer-social__links a{
+    margin-right: 15px;
+}
+.footer-social__links a img:hover{
+    box-shadow: 0 0 10px 5px #df1624;
+    transform: scale(1.1);
+    border-radius: 50%;
+}
+.footer-social__info{
+    color:  #979797;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: -30px;
+    margin-top: 40px;
+    white-space: pre;
+    height: 30px;
+}
+.footer__yourcompany{
+    color:  black;
+}
